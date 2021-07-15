@@ -55,7 +55,7 @@ class JMeterMigration {
             candidate = "jmeter",
             version = version,
             url =
-              s"https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-$version.zip"
+              s"https://www.apache.org/dyn/closer.cgi?filename=/jmeter/binaries/apache-jmeter-$version.zip&action=download"
           )
       )
       .validate()
