@@ -4,7 +4,7 @@ import com.github.mongobee.changeset.{ChangeLog, ChangeSet}
 import com.mongodb.client.MongoDatabase
 
 @ChangeLog(order = "051")
-class JMeterMigration {
+class JMeterMigrations {
   @ChangeSet(
     order = "001",
     id = "001-add_jmeter_candidate",
